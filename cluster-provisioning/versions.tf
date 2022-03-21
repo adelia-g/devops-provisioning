@@ -14,11 +14,11 @@ terraform {
   required_version = ">= 0.14"  
 }
 
-data "terraform_remote_state" "gke" {
-  backend = "local"
+# data "terraform_remote_state" "gke" {
+#   backend = "local"
 
-  config = {
-    path = "../learn-terraform-provision-gke-cluster/terraform.tfstate"
-  }
-}
+#   config = {
+#     path = "../learn-terraform-provision-gke-cluster/terraform.tfstate"
+#   }
+# }
 
